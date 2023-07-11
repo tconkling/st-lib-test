@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9fe83f836d27e04b9dd132a7f2eed8d3f279411f12f2f6d3aee1f603d3329d45"
+            "sha256": "e5813c6bfea22bb6d1c1adbb267ce5b122e4df46d1bbb53b812a05b02d52f925"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -503,7 +503,7 @@
                 "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.2"
         },
         "pytz": {
@@ -653,7 +653,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
         },
         "smmap": {
@@ -664,13 +664,12 @@
             "markers": "python_version >= '3.6'",
             "version": "==5.0.0"
         },
-        "streamlit-nightly": {
+        "streamlit": {
             "hashes": [
-                "sha256:bd9f3629379332d9a1d1c23d5a103a3e4cd0e3a2e85333f754624aa392458fef",
-                "sha256:be2c3771cb7225a74cce6948a3b30e0eca522b8182ea20e5f911c1c201f01582"
+                "sha256:7a411fea69ff52462f7df9e507d0d4661e4582c4f1dd1a2bbd43b4acf1c4d1db"
             ],
-            "index": "pypi",
-            "version": "==1.24.2.dev20230710"
+            "path": "./streamlit-1.24.1-py2.py3-none-any.whl",
+            "version": "==1.24.1"
         },
         "tenacity": {
             "hashes": [
@@ -685,7 +684,7 @@
                 "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
                 "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.10.2"
         },
         "toolz": {
